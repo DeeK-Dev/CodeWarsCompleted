@@ -23,7 +23,7 @@ function isValidWalk(walk) {
  return (north===south && east === west && walk.length === 10 ? true : false)
   }
 
-//A my elegant solution
+//A more elegant solution
 
 function isValidWalkTwo(walk) {
     let count = val => walk.filter(function(a){return a==val;}).length;
